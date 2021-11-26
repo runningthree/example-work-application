@@ -1,0 +1,196 @@
+﻿<UserControl x:Class="PsmsConfigurator.WpfApp.Views.ScenariosConfiguration"
+             x:Name="ScenariosConfig"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:viewModels="clr-namespace:PsmsConfigurator.WpfApp.ViewModels"
+             xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+             xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+             xmlns:models="clr-namespace:PsmsConfigurator.WpfApp.Models"
+             xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+             xmlns:infrastructure="clr-namespace:PsmsConfigurator.WpfApp.Views.Infrastructure"
+             mc:Ignorable="d"
+             d:DataContext="{d:DesignInstance Type=viewModels:ScenariosConfigurationViewModel, IsDesignTimeCreatable=False}"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <DockPanel LastChildFill="True">
+        <Border DockPanel.Dock="Top"
+                Height="40"
+                BorderThickness="0 0 0 1"
+                BorderBrush="{StaticResource MahApps.Brushes.Accent}">
+            <WrapPanel Margin="5"
+                       VerticalAlignment="Center"
+                       Orientation="Horizontal">
+                <Button Command="{Binding AddScenarioCmd}"
+                        ToolTip="Добавить новый сценарий">
+                    <StackPanel Orientation="Horizontal">
+                        <iconPacks:PackIconMaterial Kind="Plus" />
+                        <TextBlock Margin="5 0 0 0"
+                                   Text="Добавить сценарий" />
+                    </StackPanel>
+                </Button>
+            </WrapPanel>
+        </Border>
+        <TabControl ItemsSource="{Binding Scenarios}"
+                    SelectedItem="{Binding SelectedScenario, UpdateSourceTrigger=PropertyChanged}">
+          <TabControl.ItemTemplate>
+                <DataTemplate DataType="{x:Type viewModels:ScenarioSettingsViewModel}">
+                    <TextBlock Text="{Binding Header}" />
+                </DataTemplate>
+            </TabControl.ItemTemplate>
+            <TabControl.ContentTemplate>
+                <DataTemplate DataType="{x:Type viewModels:ScenarioSettingsViewModel}">
+                    <DockPanel LastChildFill="True">
+                        <Border DockPanel.Dock="Top"
+                                BorderThickness="0 1 0 1"
+                                BorderBrush="{StaticResource MahApps.Brushes.Accent}"
+                                Padding="2">
+                            <WrapPanel Orientation="Horizontal">
+                                <Button
+                                    Command="{Binding ElementName=ScenariosConfig, Path=DataContext.AddSceneCmd}"
+                                    CommandParameter="{Binding }"
+                                    ToolTip="Добавить сцену">
+                                    <StackPanel Orientation="Horizontal">
+                                        <iconPacks:Material Kind="Plus" />
+                                        <TextBlock Margin="5 0 0 0"
+                                                   Text="Добавить сцену" />
+                                    </StackPanel>
+                                </Button>
+                            </WrapPanel>
+                        </Border>
+                        <ListBox Margin="5"
+                                 ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                                 ItemsSource="{Binding Scenes}"
+                                 SelectedItem="{Binding SelectedScene, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                                 SelectionMode="Single">
+                            <i:Interaction.Behaviors>
+                                <infrastructure:ListBoxSelectedItemsBehavior />
+                            </i:Interaction.Behaviors>
+                            <ListBox.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <WrapPanel Orientation="Horizontal" />
+                                </ItemsPanelTemplate>
+                            </ListBox.ItemsPanel>
+                            <ListBox.ItemContainerStyle>
+                                <Style TargetType="ListBoxItem" BasedOn="{StaticResource MahApps.Styles.ListBoxItem}">
+                                    <Setter Property="Padding" Value="1" />
+                                    <Setter Property="mah:ItemHelper.ActiveSelectionBackgroundBrush"
+                                            Value="Transparent" />
+                                    <Setter Property="mah:ItemHelper.HoverBackgroundBrush" Value="Transparent" />
+                                    <Setter Property="mah:ItemHelper.HoverSelectedBackgroundBrush" Value="Transparent" />
+                                    <Setter Property="mah:ItemHelper.SelectedBackgroundBrush" Value="Transparent" />
+                                </Style>
+                            </ListBox.ItemContainerStyle>
+                            <ListBox.ItemTemplate>
+                                <DataTemplate DataType="{x:Type models:Scene}">
+                                    <Border Width="425"
+                                            BorderThickness="1"
+                                            BorderBrush="{StaticResource MahApps.Brushes.Accent}">
+                                        <DockPanel LastChildFill="True">
+                                            <Border DockPanel.Dock="Top"
+                                                    Height="40">
+                                                <Grid Background="{StaticResource MahApps.Brushes.Accent}">
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="*" />
+                                                        <ColumnDefinition Width="Auto" />
+                                                    </Grid.ColumnDefinitions>
+                                                    <StackPanel Grid.Column="1"
+                                                                Orientation="Horizontal">
+                                                        <StackPanel.Resources>
+                                                            <Style TargetType="Button"
+                                                                   BasedOn="{StaticResource MahApps.Styles.Button}">
+                                                                <Setter Property="Margin" Value="1" />
+                                                                <Setter Property="VerticalAlignment" Value="Center" />
+                                                            </Style>
+                                                        </StackPanel.Resources>
+                                                        <Button
+                                                            Command="{Binding ElementName=ScenariosConfig, Path=DataContext.RemoveSceneCmd}"
+                                                            CommandParameter="{Binding }"
+                                                            ToolTip="Удалить сцену">
+                                                            <iconPacks:Material Kind="Delete" />
+                                                        </Button>
+                                                    </StackPanel>
+                                                </Grid>
+                                            </Border>
+                                            <Grid>
+                                                <Grid.Resources>
+                                                    <Style TargetType="TextBlock"
+                                                           BasedOn="{StaticResource MahApps.Styles.TextBlock}">
+                                                        <Setter Property="Margin" Value="5" />
+                                                        <Setter Property="VerticalAlignment" Value="Center" />
+                                                        <Setter Property="HorizontalAlignment" Value="Left" />
+                                                        <Setter Property="FontSize" Value="14" />
+                                                        <Setter Property="Foreground" Value="Black" />
+                                                    </Style>
+                                                    <Style TargetType="ComboBox"
+                                                           BasedOn="{StaticResource MahApps.Styles.ComboBox}">
+                                                        <Setter Property="Margin" Value="5" />
+                                                        <Setter Property="VerticalAlignment" Value="Center" />
+                                                        <Setter Property="HorizontalAlignment" Value="Stretch" />
+                                                    </Style>
+                                                    <Style TargetType="mah:NumericUpDown">
+                                                        <Setter Property="Margin" Value="5" />
+                                                        <Setter Property="VerticalAlignment" Value="Center" />
+                                                        <Setter Property="HorizontalAlignment" Value="Stretch" />
+                                                    </Style>
+                                                </Grid.Resources>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="Auto" />
+                                                    <ColumnDefinition Width="*" />
+                                                </Grid.ColumnDefinitions>
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="40" />
+                                                    <RowDefinition Height="40" />
+                                                    <RowDefinition Height="40" />
+                                                    <RowDefinition Height="40" />
+                                                </Grid.RowDefinitions>
+                                                <TextBlock Grid.Column="0"
+                                                           Grid.Row="0"
+                                                           Text="Выход" />
+                                                <ComboBox Grid.Column="1"
+                                                          Grid.Row="0"
+                                                          SelectedValuePath="Key"
+                                                          DisplayMemberPath="Value"
+                                                          ItemsSource="{Binding ElementName=ScenariosConfig, Path=DataContext.Outputs}"
+                                                          SelectedValue="{Binding Output}" />
+                                                <TextBlock Grid.Column="0"
+                                                           Grid.Row="1"
+                                                           Text="Тип включения" />
+                                                <ComboBox Grid.Column="1"
+                                                          Grid.Row="1"
+                                                          SelectedValuePath="Key"
+                                                          DisplayMemberPath="Value"
+                                                          ItemsSource="{Binding ElementName=ScenariosConfig, Path=DataContext.Modes}"
+                                                          SelectedValue="{Binding Mode}" />
+                                                <TextBlock Grid.Column="0"
+                                                           Grid.Row="2"
+                                                           Text="Задержка включения выхода" />
+                                                <mah:NumericUpDown Grid.Column="1"
+                                                                   Grid.Row="2"
+                                                                   VerticalAlignment="Center"
+                                                                   HorizontalAlignment="Stretch"
+                                                                   Value="{Binding Delay}"
+                                                                   Minimum="{Binding ElementName=ScenariosConfig, Path=DataContext.DelayMinValue}"
+                                                                   Maximum="{Binding ElementName=ScenariosConfig, Path=DataContext.DelayMaxValue}" />
+                                                <TextBlock Grid.Column="0"
+                                                           Grid.Row="3"
+                                                           Text="Длительность включения выхода" />
+                                                <mah:NumericUpDown Grid.Column="1"
+                                                                   Grid.Row="3"
+                                                                   VerticalAlignment="Center"
+                                                                   HorizontalAlignment="Stretch"
+                                                                   Value="{Binding Duration}"
+                                                                   Minimum="{Binding ElementName=ScenariosConfig, Path=DataContext.DurationMinValue}"
+                                                                   Maximum="{Binding ElementName=ScenariosConfig, Path=DataContext.DurationMaxValue}" />
+                                            </Grid>
+                                        </DockPanel>
+                                    </Border>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </DockPanel>
+                </DataTemplate>
+            </TabControl.ContentTemplate>
+        </TabControl>
+    </DockPanel>
+</UserControl>

@@ -1,0 +1,17 @@
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\DefaultSpecificationFileGenerator\bin\Debug\netcoreapp3.1\DefaultSpecificationFileGenerator.exe
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\DefaultSpecificationFileGenerator\bin\Debug\netcoreapp3.1\DefaultSpecificationFileGenerator.deps.json
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\DefaultSpecificationFileGenerator\bin\Debug\netcoreapp3.1\DefaultSpecificationFileGenerator.runtimeconfig.json
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\DefaultSpecificationFileGenerator\bin\Debug\netcoreapp3.1\DefaultSpecificationFileGenerator.runtimeconfig.dev.json
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\DefaultSpecificationFileGenerator\bin\Debug\netcoreapp3.1\DefaultSpecificationFileGenerator.dll
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\DefaultSpecificationFileGenerator\bin\Debug\netcoreapp3.1\DefaultSpecificationFileGenerator.pdb
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\DefaultSpecificationFileGenerator\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\DefaultSpecificationFileGenerator\bin\Debug\netcoreapp3.1\PsmsConfigurator.Shared.dll
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\DefaultSpecificationFileGenerator\bin\Debug\netcoreapp3.1\PsmsConfigurator.Shared.pdb
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\DefaultSpecificationFileGenerator\obj\Debug\netcoreapp3.1\DefaultSpecificationFileGenerator.csproj.AssemblyReference.cache
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\DefaultSpecificationFileGenerator\obj\Debug\netcoreapp3.1\DefaultSpecificationFileGenerator.AssemblyInfoInputs.cache
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\DefaultSpecificationFileGenerator\obj\Debug\netcoreapp3.1\DefaultSpecificationFileGenerator.AssemblyInfo.cs
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\DefaultSpecificationFileGenerator\obj\Debug\netcoreapp3.1\DefaultSpecificationFileGenerator.csproj.CoreCompileInputs.cache
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\DefaultSpecificationFileGenerator\obj\Debug\netcoreapp3.1\DefaultSpecificationFileGenerator.csproj.CopyComplete
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\DefaultSpecificationFileGenerator\obj\Debug\netcoreapp3.1\DefaultSpecificationFileGenerator.dll
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\DefaultSpecificationFileGenerator\obj\Debug\netcoreapp3.1\DefaultSpecificationFileGenerator.pdb
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\DefaultSpecificationFileGenerator\obj\Debug\netcoreapp3.1\DefaultSpecificationFileGenerator.genruntimeconfig.cache

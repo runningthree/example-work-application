@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "wiot3R7nK4iIxRSJaJUeNnLrbQD9blT6mmbDi/gnQf5IhNJ0djS3sGxo4GHyelQH5D0rCSMRGUxZTgftIHHcCQ==",
+  "success": true,
+  "projectFilePath": "D:\\Работа\\ASM\\ASM_Rep\\Actual\\psmsconfig\\branches\\v1.2.0\\src\\PsmsConfigurator.WpfApp\\PsmsConfigurator.WpfApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Asus\\.nuget\\packages\\commonservicelocator\\2.0.5\\commonservicelocator.2.0.5.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\controlzex\\4.3.2\\controlzex.4.3.2.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\mahapps.metro\\2.2.0\\mahapps.metro.2.2.0.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\mahapps.metro.iconpacks\\4.5.0\\mahapps.metro.iconpacks.4.5.0.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.19\\microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\mvvmdialogs\\7.1.1\\mvvmdialogs.7.1.1.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\nlog\\4.7.5\\nlog.4.7.5.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\nlog.config\\4.7.5\\nlog.config.4.7.5.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\nlog.schema\\4.7.5\\nlog.schema.4.7.5.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\prism.core\\7.2.0.1422\\prism.core.7.2.0.1422.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\prism.unity\\7.2.0.1422\\prism.unity.7.2.0.1422.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\prism.wpf\\7.2.0.1422\\prism.wpf.7.2.0.1422.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\unity.abstractions\\5.11.6\\unity.abstractions.5.11.6.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\unity.container\\5.11.8\\unity.container.5.11.8.nupkg.sha512"
+  ],
+  "logs": []
+}

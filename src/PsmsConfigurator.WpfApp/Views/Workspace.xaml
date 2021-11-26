@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="PsmsConfigurator.WpfApp.Views.Workspace"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:prism="http://prismlibrary.com/"
+             xmlns:views="clr-namespace:PsmsConfigurator.WpfApp.Views"
+             xmlns:viewModels="clr-namespace:PsmsConfigurator.WpfApp.ViewModels"
+             prism:ViewModelLocator.AutoWireViewModel="True"
+             mc:Ignorable="d"
+             d:DataContext="{d:DesignInstance Type=viewModels:WorkspaceViewModel, IsDesignTimeCreatable=False}"
+             d:DesignHeight="300" d:DesignWidth="300">
+  <Border>
+    <Border.Resources>
+      <DataTemplate DataType="{x:Type viewModels:ConfigurationViewModel}">
+        <views:Configuration />
+      </DataTemplate>
+    </Border.Resources>
+    <ContentPresenter Content="{Binding Content}" />
+  </Border>
+</UserControl>

@@ -1,0 +1,9 @@
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.Shared\bin\Debug\netstandard2.0\PsmsConfigurator.Shared.deps.json
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.Shared\bin\Debug\netstandard2.0\PsmsConfigurator.Shared.dll
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.Shared\bin\Debug\netstandard2.0\PsmsConfigurator.Shared.pdb
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.Shared\obj\Debug\netstandard2.0\PsmsConfigurator.Shared.AssemblyInfoInputs.cache
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.Shared\obj\Debug\netstandard2.0\PsmsConfigurator.Shared.AssemblyInfo.cs
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.Shared\obj\Debug\netstandard2.0\PsmsConfigurator.Shared.csproj.CoreCompileInputs.cache
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.Shared\obj\Debug\netstandard2.0\PsmsConfigurator.Shared.dll
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.Shared\obj\Debug\netstandard2.0\PsmsConfigurator.Shared.pdb
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.Shared\obj\Debug\netstandard2.0\PsmsConfigurator.Shared.csproj.AssemblyReference.cache

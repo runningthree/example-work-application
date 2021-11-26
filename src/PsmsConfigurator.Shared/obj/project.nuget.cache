@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "PbvA5T7mD9hAhyy7uj0Gm21lPULNEcxxSTqhrIyKLHXzgCcQX6XrP1UiP2O57M1NbJInll5KV2lh0VcfhmUG0Q==",
+  "success": true,
+  "projectFilePath": "D:\\Работа\\ASM\\ASM_Rep\\Actual\\psmsconfig\\branches\\v1.2.0\\src\\PsmsConfigurator.Shared\\PsmsConfigurator.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Asus\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

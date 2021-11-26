@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{081DDB65-2C6A-4EF4-A316-886CB7707E4A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PsmsConfigurator.WpfApp</RootNamespace>
+    <AssemblyName>Конфигуратор ПС-МС</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>configurator-icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Windows.Design.Extensibility, Version=4.3.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Converters\ConfigurationConverter.cs" />
+    <Compile Include="Events\GroupEvents.cs" />
+    <Compile Include="Events\GroupLoopStateEvents.cs" />
+    <Compile Include="Events\SceneEvents.cs" />
+    <Compile Include="Extensions\DialogServiceExtensions.cs" />
+    <Compile Include="Factories\ConfigurationFactory.cs" />
+    <Compile Include="Events\ConfigurationEvents.cs" />
+    <Compile Include="Events\LoopEvents.cs" />
+    <Compile Include="Events\OutputEvents.cs" />
+    <Compile Include="Extensions\ByteArrayExtensions.cs" />
+    <Compile Include="Extensions\ContainerExtensions.cs" />
+    <Compile Include="Models\ApplicationState.cs" />
+    <Compile Include="Models\Common.cs" />
+    <Compile Include="Models\Configuration.cs" />
+    <Compile Include="Models\GroupLoopState.cs" />
+    <Compile Include="Models\Group.cs" />
+    <Compile Include="Models\Loop.cs" />
+    <Compile Include="Models\Output.cs" />
+    <Compile Include="Models\Scene.cs" />
+    <Compile Include="ViewModels\CommonSettingsViewModels.cs" />
+    <Compile Include="ViewModels\ConfigurationViewModel.cs" />
+    <Compile Include="ViewModels\CreateScenarioWindowViewModel.cs" />
+    <Compile Include="ViewModels\EditSceneWindowViewModel.cs" />
+    <Compile Include="ViewModels\GroupLoopStateViewModel.cs" />
+    <Compile Include="ViewModels\GroupsConfigurationViewModel.cs" />
+    <Compile Include="ViewModels\GroupSettingsViewModel.cs" />
+    <Compile Include="ViewModels\LoopsConfigurationViewModel.cs" />
+    <Compile Include="ViewModels\LoopSettingsViewModel.cs" />
+    <Compile Include="ViewModels\MainWindowMenuViewModel.cs" />
+    <Compile Include="ViewModels\MainWindowViewModel.cs" />
+    <Compile Include="ViewModels\CustomMessageBoxViewModel.cs" />
+    <Compile Include="ViewModels\OutputSettingsViewModel.cs" />
+    <Compile Include="ViewModels\OutputsConfigurationViewModel.cs" />
+    <Compile Include="ViewModels\ScenariosConfigurationViewModel.cs" />
+    <Compile Include="ViewModels\ScenarioSettingsViewModel.cs" />
+    <Compile Include="ViewModels\WorkspaceViewModel.cs" />
+    <Compile Include="Views\CommonSettings.xaml.cs">
+      <DependentUpon>CommonSettings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Configuration.xaml.cs">
+      <DependentUpon>Configuration.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CreateScenarioWindow.xaml.cs">
+      <DependentUpon>CreateScenarioWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EditOutputWindow.xaml.cs">
+      <DependentUpon>EditOutputWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EditSceneWindow.xaml.cs">
+      <DependentUpon>EditSceneWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GroupsConfiguration.xaml.cs">
+      <DependentUpon>GroupsConfiguration.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Infrastructure\ListBoxSelectedItemsBehavior.cs" />
+    <Compile Include="Views\LoopsConfiguration.xaml.cs">
+      <DependentUpon>LoopsConfiguration.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\MainWindowMenu.xaml.cs">
+      <DependentUpon>MainWindowMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GroupsMatrixToDataConverter.cs" />
+    <Compile Include="Views\CustomMessageBox.xaml.cs">
+      <DependentUpon>CustomMessageBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\OutputsConfiguration.xaml.cs">
+      <DependentUpon>OutputsConfiguration.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ScenariosConfiguration.xaml.cs">
+      <DependentUpon>ScenariosConfiguration.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Workspace.xaml.cs">
+      <DependentUpon>Workspace.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="NLog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="specification.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Views\CommonSettings.xaml" />
+    <Page Include="Views\Configuration.xaml" />
+    <Page Include="Views\CreateScenarioWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\EditOutputWindow.xaml" />
+    <Page Include="Views\EditSceneWindow.xaml" />
+    <Page Include="Views\GroupsConfiguration.xaml" />
+    <Page Include="Views\LoopsConfiguration.xaml" />
+    <Page Include="Views\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\MainWindowMenu.xaml" />
+    <Page Include="Views\CustomMessageBox.xaml" />
+    <Page Include="Views\OutputsConfiguration.xaml" />
+    <Page Include="Views\ScenariosConfiguration.xaml" />
+    <Page Include="Views\Workspace.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CommonServiceLocator" Version="2.0.5" />
+    <PackageReference Include="MahApps.Metro" Version="2.2.0" />
+    <PackageReference Include="MahApps.Metro.IconPacks" Version="4.5.0" />
+    <PackageReference Include="MvvmDialogs" Version="7.1.1" />
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>12.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="NLog" Version="4.7.5" />
+    <PackageReference Include="NLog.Config" Version="4.7.5" />
+    <PackageReference Include="Prism.Core" Version="7.2.0.1422" />
+    <PackageReference Include="Prism.Unity" Version="7.2.0.1422" />
+    <PackageReference Include="Prism.Wpf" Version="7.2.0.1422" />
+    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="4.7.1" />
+    <PackageReference Include="System.Threading.Tasks.Extensions" Version="4.5.4" />
+    <PackageReference Include="System.ValueTuple" Version="4.5.0" />
+    <PackageReference Include="Unity.Abstractions" Version="5.11.6" />
+    <PackageReference Include="Unity.Container" Version="5.11.8" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="configurator-icon.ico" />
+    <Content Include="NLog.xsd">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\PsmsConfigurator.Shared\PsmsConfigurator.Shared.csproj">
+      <Project>{76de8902-48f2-4abd-93ea-8d3ba65dc104}</Project>
+      <Name>PsmsConfigurator.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>if $(ConfigurationName) == Release (
+ xcopy "$(TargetDir)*.dll" "$(TargetDir)libs\" /Y /I
+ del "$(TargetDir)*.dll" /q
+ del "$(TargetDir)*.pdb" /q
+)</PostBuildEvent>
+  </PropertyGroup>
+</Project>

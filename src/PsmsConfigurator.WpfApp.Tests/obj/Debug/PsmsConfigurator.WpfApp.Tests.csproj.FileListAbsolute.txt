@@ -1,0 +1,44 @@
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\NLog.xsd
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\NLog.config
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\specification.json
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\PsmsConfigurator.WpfApp.Tests.dll
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\PsmsConfigurator.WpfApp.Tests.pdb
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\xunit.abstractions.dll
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\xunit.assert.dll
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\xunit.core.dll
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\xunit.execution.desktop.dll
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\Конфигуратор ПС-МС.exe
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\Prism.Unity.Wpf.dll
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\Prism.dll
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\MvvmDialogs.dll
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\PsmsConfigurator.Shared.dll
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\MahApps.Metro.dll
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\System.Windows.Interactivity.dll
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\Prism.Wpf.dll
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\NLog.dll
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\System.ValueTuple.dll
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\netstandard.dll
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\ControlzEx.dll
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\Конфигуратор ПС-МС.pdb
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\Конфигуратор ПС-МС.exe.config
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\xunit.abstractions.xml
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\xunit.assert.pdb
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\xunit.assert.xml
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\xunit.core.pdb
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\xunit.core.xml
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\xunit.execution.desktop.pdb
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\xunit.execution.desktop.xml
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\Prism.Unity.Wpf.pdb
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\Prism.pdb
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\PsmsConfigurator.Shared.pdb
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\MahApps.Metro.pdb
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\Prism.Wpf.pdb
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\ControlzEx.pdb
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\obj\Debug\PsmsConfigurator.WpfApp.Tests.csproj.AssemblyReference.cache
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\obj\Debug\PsmsConfigurator.WpfApp.Tests.csproj.CoreCompileInputs.cache
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\obj\Debug\PsmsConfigurator.WpfApp.Tests.csproj.CopyComplete
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\obj\Debug\PsmsConfigurator.WpfApp.Tests.dll
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp.Tests\obj\Debug\PsmsConfigurator.WpfApp.Tests.pdb

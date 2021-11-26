@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5ELwUVjiwUZnyJvxT+UUhQtRBE9tGMObE2nKp2y7CA9WV2/EMLajZG4fSAUxw9uOSQKogk+h7pFWn65dF0gMCQ==",
+  "success": true,
+  "projectFilePath": "D:\\Работа\\ASM\\ASM_Rep\\Actual\\psmsconfig\\branches\\v1.2.0\\src\\DefaultSpecificationFileGenerator\\DefaultSpecificationFileGenerator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Asus\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

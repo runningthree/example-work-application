@@ -1,0 +1,20 @@
+﻿Конфигуратор ПС-МС
+
+
+winexe
+C#
+.cs
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp\obj\Debug\
+PsmsConfigurator.WpfApp
+none
+false
+DEBUG;TRACE
+D:\Работа\ASM\ASM_Rep\Actual\psmsconfig\branches\v1.2.0\src\PsmsConfigurator.WpfApp\App.xaml
+13-973981798
+1-1215924046
+54286178007
+1631889600561
+Views\CommonSettings.xaml;Views\Configuration.xaml;Views\CreateScenarioWindow.xaml;Views\EditOutputWindow.xaml;Views\EditSceneWindow.xaml;Views\GroupsConfiguration.xaml;Views\LoopsConfiguration.xaml;Views\MainWindow.xaml;Views\MainWindowMenu.xaml;Views\CustomMessageBox.xaml;Views\OutputsConfiguration.xaml;Views\ScenariosConfiguration.xaml;Views\Workspace.xaml;
+
+False
+
